@@ -1,0 +1,72 @@
+/*shimon kaldearo 318643368
+  chen yakov 209382779*/
+  .button {
+  margin-top: 2rem;
+  }
+  h2{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color:#77afea;
+      text-shadow: -3px 0px white;  
+  }
+  .button {
+    margin-top: 2rem;
+  }
+  
+  .popup-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 2; 
+  }
+  
+  .popup {
+    background-image: url("./02401240.png");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    z-index: 500;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+    color: #77afea;
+  }
+  
+  .popup button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .popup button:hover {
+    background-color: #0056b3;
+  }
+  
+  .form-add {
+    background-image: url("./02401240.png");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position:absolute; 
+    z-index: 1; 
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  

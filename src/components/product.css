@@ -1,0 +1,35 @@
+/*shimon kaldearo 318643368
+  chen yakov 209382779*/
+
+.card {
+    background-image: url("./02401240.png");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px lightgray;
+  }
+  
+  .card-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .card-body p {
+    margin: 5px 0;
+  }
+  
+  h5{
+    color:#77afea;
+  }
+  b{
+  color: #77afea;
+  }
+  p{
+    color:black;
+    font-weight:500;
+  }

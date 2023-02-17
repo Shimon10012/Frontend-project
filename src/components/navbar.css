@@ -1,0 +1,50 @@
+/*shimon kaldearo 318643368
+  chen yakov 209382779*/
+
+
+.navbar{
+  background-image: url("./02401240.png");
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+  
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+   
+    
+  }
+  
+  .nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .nav-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #77afea;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+  }
+  
+  .nav-link:hover {
+    background-color:#77afea;;
+    color: #fff;
+    transition: all 0.8s ease;
+  }
+  
+  .nav-link.active {
+    background-color: #77afea;
+    color: #fff;
+  }
+  
+  
