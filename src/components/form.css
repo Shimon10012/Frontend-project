@@ -73,8 +73,13 @@
   @media screen and (min-width: 1920px) {
     form {
       width: 60%;
+      height: 65%;
+    }
+    .form-group{
+      width: 60%;
       height: 70%;
     }
+    
   }
 
   
